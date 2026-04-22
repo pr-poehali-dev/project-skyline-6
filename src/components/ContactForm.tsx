@@ -105,9 +105,13 @@ export default function ContactForm() {
         </form>
       )}
 
-      <div className="mt-16 flex flex-col sm:flex-row gap-8 text-sm text-neutral-500 text-center">
-        <span>rostovtzeva.lesya@yandex.ru</span>
-        <span>+7 993 019-33-23</span>
+      <div className="mt-16 flex flex-col items-center gap-2 text-center">
+        <p className="uppercase tracking-widest text-xs text-neutral-400">Руководитель медиацентра</p>
+        <p className="text-lg font-semibold text-neutral-900">Ростовцева Олеся Александровна</p>
+        <div className="flex flex-col sm:flex-row gap-4 mt-2 text-sm text-neutral-500">
+          <span>rostovtzeva.lesya@yandex.ru</span>
+          <span>+7 993 019-33-23</span>
+        </div>
       </div>
     </section>
   );
